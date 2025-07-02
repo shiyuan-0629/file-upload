@@ -1,4 +1,4 @@
-# 文件上传系统（file-upload）
+# 文件上传code（file-upload）
 
 ## 1. 项目简介  
 > 一个基于 [Vue + Node.js] 的文件上传的示例code，可用于学习共享。  
@@ -39,6 +39,7 @@ pnpm run dev
 ### 启动后端（server）
 ```bash
 # 进入后端目录
+cd server
 
 # 安装依赖
 pnpm install
@@ -46,3 +47,7 @@ pnpm install
 # 本地启动 (开发环境)
 node app.js
 ```
+
+![启动截图](https://github.com/shiyuan-0629/file-upload/blob/master/images/init.png?raw=true)
+![等待截图](https://github.com/shiyuan-0629/file-upload/blob/master/images/wait.png?raw=true)
+![成功截图](https://github.com/shiyuan-0629/file-upload/blob/master/images/success.png?raw=true)
