@@ -39,5 +39,14 @@ pnpm install
 
 # 本地启动（开发环境）
 pnpm run dev
+```
+### 启动后端（server）
+```bash
+# 进入后端目录
 
-### 启动前端（client）
+# 安装依赖
+pnpm install
+
+# 本地启动 (开发环境)
+node app.js
+```
